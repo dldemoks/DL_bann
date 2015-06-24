@@ -1,4 +1,4 @@
-module.exports = payeerBanned;
+п»їmodule.exports = payeerBanned;
 
 var redis = require('redis'),
 	redisCL = redis.createClient(15937),
@@ -10,7 +10,7 @@ function payeerBanned() {
 	if (!(this instanceof payeerBanned)) return new payeerBanned();
 }
 
-///////// добавление в бан по параметру ///////////
+///////// РґРѕР±Р°РІР»РµРЅРёРµ РІ Р±Р°РЅ РїРѕ РїР°СЂР°РјРµС‚СЂСѓ ///////////
 /* 
 req = {
 	type: userID,
@@ -47,7 +47,7 @@ payeerBanned.prototype.addBann = function(req, callback){
 	});
 };
 
-///////// проверить на наличие бана по указанным параметрам /////////
+///////// РїСЂРѕРІРµСЂРёС‚СЊ РЅР° РЅР°Р»РёС‡РёРµ Р±Р°РЅР° РїРѕ СѓРєР°Р·Р°РЅРЅС‹Рј РїР°СЂР°РјРµС‚СЂР°Рј /////////
 /*
 req = {
 	userID: 315,
@@ -81,7 +81,7 @@ payeerBanned.prototype.inBann = function(req, callback){
 	});
 };
 
-///////// информация по бану /////////
+///////// РёРЅС„РѕСЂРјР°С†РёСЏ РїРѕ Р±Р°РЅСѓ /////////
 /*
 req = {
 	type: userID,
