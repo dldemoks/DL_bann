@@ -1,0 +1,8 @@
+﻿{
+	"ru": {
+		"banned": "Пользователя #UserName# забанил модер #ModerName# на часов."
+	},
+	"en": {
+		"banned": "Users #UserName# is banned moder #ModerName# in hour."
+	}
+}
